@@ -1,4 +1,4 @@
-.contacts {
+#contacts {
     height: 700px;
 }
 
@@ -7,37 +7,62 @@
 }
 
 .container--left {
-    margin-left: 111px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: start;
+    row-gap: 38.81px;
 }
 
-.container__description {
-    height: 19px;
-    margin: 31px auto auto 0px;
+.input-container {
+    position: relative;
+    
+    & input {
+        width: 478.01px;
+        height: 51px;
+        padding-left: 5px;
+        font-size: 12px;
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+        transform: rotate(0.38deg);
+        
+        &:focus {
+            background: rgb(246, 243, 243);
+            outline: none;
+            border-bottom: 1px solid blueviolet;
+            border-radius: 3px 3px 0px 0px;
+        }
+    }
+}
+
+.input-container__label {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    z-index: 10;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
+    cursor: auto;
+    transition: 0.2s ease all;
 }
 
-.container__description--name {
-    margin-top: 0px;
+input:focus ~ .input-container__label{
+    top: -5px;
+    font-size: 12px;
+    color: blueviolet;
 }
 
-input {
-    width: 478.01px;
-    height: 40px;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    transform: rotate(0.38deg);
-
+input:valid + .input-container__label {
+    top: -5px;
+    font-size: 12px;
 }
 
-.container--rigth {
+.container--right {
     margin-left: 0px;
     display: flex;
     flex-direction: column;
@@ -45,16 +70,31 @@ input {
     
 }
 
-.container__description--message {
-    margin: 4px 0px 2px;
-}
-
 textarea {
     width: 478.01px;
+    height: 235px;
+    padding: 5px 5px;
+    font-size: 16px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     transform: rotate(0.38deg);
     resize: none;
+
+    &::placeholder {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #BDBDBD;
+    }
+    
+    &:focus {
+        background: rgb(246, 243, 243);
+        outline: none;
+        border-bottom: 1px solid blueviolet;
+        border-radius: 3px 3px 0px 0px;
+    }
 }
 
 .link {

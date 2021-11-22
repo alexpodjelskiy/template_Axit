@@ -19,26 +19,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header id="header">
         <div class="wrap">
             <div class="container">
                 <div class="logo">
-                    <p class="logo__text">Ax<span class="logo-color">It</span></p>
+                    <a class="logo__text" href="#sub-header">Ax<span class="logo-color">It</span></a>
                 </div>
                 <nav class="navigation">
                     <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link" href="http://www.google.com/">Features</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="http://www.yandex.by">About</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="http://www.yahoo.com/">Pricing</a></li>
-                         <li class="navigation__item"><a class="navigation__link" href="http://www.bing.com/">Reviews</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="http://www.duckduckgo.com/">Contact</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#tabs">Features</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#advantages">About</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#prices">Pricing</a></li>
+                         <li class="navigation__item"><a class="navigation__link" href="#comments">Reviews</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#contacts">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="sub-header">
+        <section id="sub-header">
             <div class="wrap">
                 <div class="block">
                     <div class="block__box block__box--left">
@@ -56,22 +56,28 @@
                                 <h3 class="block__description">Try Your <span class="logo-color">Free</span> Trial Today</h3>
                             </div>
                             <div class="block__main">
-                                <p class="block__text">Name</p>
-                                <input type="text" class="block__login-form">
-                                <p class="block__text">Email</p>
-                                <input type="email" class="block__login-form">
-                                <p class="block__text">Password</p>
-                                <input type="password" class="block__login-form block__login-form--last">
+                                <div class="block__input-container">
+                                    <input type="text" id="input-name" required>
+                                    <label class="input-container__label" for="input-name">Name</label>
+                                </div>
+                                <div class="block__input-container">
+                                    <input type="email" id="input-email" required>
+                                    <label class="input-container__label" for="input-email">Email</label>
+                                </div>
+                                <div class="block__input-container">
+                                    <input type="password" id="input-password" required>
+                                    <label class="input-container__label" for="input-password">Password</label>
+                                </div>
                             </div>
                             <div class="block__footer">
-                                <a href="https://www.google.com/?hl=ru" class="button__action">Get Started</a>
+                               <button class="button__action">Get Started</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="media">
+        <section id="media">
             <div class="wrap">
                 <div class="media__block">
                     <div class="media__box">
@@ -92,7 +98,7 @@
                 </div>
             </div>
         </section>
-        <section class="tabs">
+        <section id="tabs">
             <div class="wrap">
                 <div class="container">
                     <div class="container__card container__card--left">
@@ -112,9 +118,7 @@
                             <p class="container__text-description container__text-description--first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes</p>
                             <p class="container__text-description container__text-description--sec"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
                         </div>
-                        <div class="qwe">
-                            <a href="https://www.google.com/?hl=ru" class="button button--tab">Download</a>
-                        </div>
+                        <button class="button__action button__action--tab">Download</button>
                     </div>
                     <div class="container__card container__card--right">
                         <div class="container__pic"></div>
@@ -122,7 +126,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section id="advantages">
             <div class="wrap">
                 <h2 class="title">WHY THIS IS AWESOME
                     <hr class="title__line">
@@ -151,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section class="prices">
+        <section id="prices">
             <div class="wrap">
                 <h2 class="title">pricing options</h2>
                 <hr class="title__line">
@@ -194,7 +198,7 @@
                 </div>
             </div>
         </section>
-        <section class="comments">
+        <section id="comments">
             <div class="wrap">
                 <h2 class="title">what our customers are saying
                     <hr class="title__line">
@@ -262,7 +266,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section id="contacts">
             <div class="wrap">
                 <h2 class="title">Contact us
                     <hr class="title__line">
@@ -271,16 +275,21 @@
                 </div>
                 <div class="container">
                     <div class="container container--left">
-                        <p class="container__description container__description--name">Name</p>
-                        <input type="text">
-                        <p class="container__description container__description--email">Email</p>
-                        <input type="email" name="email">
-                        <p class="container__description container__description--password">Password</p>
-                        <input type="password" name="password">
+                        <div class="input-container">
+                            <input type="text" id="input-name" required>
+                            <label class="input-container__label" for="input-name">Name</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" id="input-email" required>
+                            <label class="input-container__label" for="input-email">Email</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" id="input-password" required>
+                            <label class="input-container__label" for="input-password">Password</label>
+                        </div>
                     </div>
-                    <div class="container container--rigth">
-                        <p class="container__description container__description--message">Message</p>
-                        <textarea name="comment" cols="100" rows="14"></textarea>
+                    <div class="container container--right">
+                        <textarea name="comment" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <div class="link">
@@ -288,7 +297,7 @@
                 </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="footer">
         <div class="wrap">
             <ul class="socialwebs">
                 <li class="socialwebs__item">

@@ -3,6 +3,14 @@
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.wrap {
+    width: 1400px; 
+}
+
 @import './header';
 @import './sub-header';
 @import './media';
