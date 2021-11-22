@@ -1,0 +1,77 @@
+.section {
+    height: 600px;
+}
+
+.wrap {
+    width: 1400px;
+}
+
+.title {
+    padding-top: 80px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.title__line {
+    margin: 34px auto;
+    border: 1px solid #E72424;
+    width: 64px;
+    height: 2px 
+}
+
+.undertitle {
+    margin: 34px auto 68px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon {
+    border-radius: 50%;
+    border: 1px solid #E72424;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.icon__bulb {
+    background: url(../../images/bulb-icon.svg) no-repeat center;
+}
+
+.icon__keyboard {
+    background: url(../../images/keyboard-icon.svg) no-repeat center;
+    
+}
+
+.icon__lightning {
+    background: url(../../images/lightning-icon.svg) no-repeat center;
+}
+
+.advantage {
+    margin: 30px auto 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.advantage__description {
+    width: 350px;
+    height: 60px;    
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+}

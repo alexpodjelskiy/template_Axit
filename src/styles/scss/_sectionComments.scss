@@ -1,0 +1,78 @@
+.comments {
+    height: 599px;
+}
+
+.container__box {
+    width: 298px;
+    height: 110px;
+    background: #E2E2E2;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 14px 16px;
+    margin-bottom: 22px;
+}
+
+.container__text {
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.container__box--under {
+    padding: 0px;
+    background: none;
+    display: flex;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    background: url('../../images/avatar.png') center/70px 70px no-repeat;
+    align-self: flex-start;
+}
+
+.person {
+    margin: 0px;
+    height: 100%;
+    flex-grow: 0.5;
+}
+
+.person__avatar {
+    margin: 8px auto 0px;
+}
+
+.person__box {
+    margin: 12px auto auto;
+}
+
+.person__name {
+    width: 97px;
+    height: 27px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: baseline;
+}
+
+.person__position {
+    width: 59px;
+    height: 19px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    margin-right: 31.75px;
+}

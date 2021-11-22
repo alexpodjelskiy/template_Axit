@@ -1,0 +1,44 @@
+.design {
+    height: 326px;
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(../../images/section_background.svg) no-repeat center;
+    background-size: cover;
+    text-align: center; 
+}
+
+.title--white {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 58px;
+}
+
+.whiteline {
+    margin: 34px auto;
+    border: 1px solid #FFFFFF;
+    width: 64px;
+    height: 2px 
+}
+
+.inner {
+    margin-bottom: 68px;    
+}
+
+.text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.button {
+    padding: 11px 26px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
