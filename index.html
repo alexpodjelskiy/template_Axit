@@ -21,9 +21,9 @@
 <body>
     <header id="header">
         <div class="wrap">
-            <div class="container">
+            <div class="header__container">
                 <div class="logo">
-                    <a class="logo__text" href="#sub-header">Ax<span class="logo-color">It</span></a>
+                    <a class="logo__link" href="#sub-header">Ax<span class="logo-color">It</span></a>
                 </div>
                 <nav class="navigation">
                     <ul class="navigation__list">
@@ -40,37 +40,35 @@
     <main>
         <section id="sub-header">
             <div class="wrap">
-                <div class="block">
-                    <div class="block__box block__box--left">
-                        <p class="block__logo">Ax<span class="logo-color">It</span></p>
-                        <h2 class="block__title">Modern axure template for beautiful Prototypes</h2>
-                        <hr class="block__line">
-                        <h3 class="block__undertitle">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Aenean</h3>
-                        <div class="block__link">
-                            <a href="https://www.google.com/?hl=ru" class="button button--sub-header">Download</a>
-                        </div>
+                <div class="sub-header__container">
+                    <div class="sub-header__box sub-header__box--left">
+                        <p class="sub-header__logo">Ax<span class="logo-color">It</span></p>
+                        <h2 class="sub-header__title">Modern axure template for beautiful prototypes</h2>
+                        <hr class="devider">
+                        <h3 class="sub-header__undertitle">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Aenean</h3>
+                        <button class="button">Download</button>
                     </div>
-                    <div class="block__box block__box--right">
-                        <div class="block__form">
-                            <div class="block__header">
-                                <h3 class="block__description">Try Your <span class="logo-color">Free</span> Trial Today</h3>
+                    <div class="sub-header__box sub-header__box--right">
+                        <div class="sub-header__form">
+                            <div class="form__header">
+                                <h3 class="form__description">Try Your <span class="logo-color">FREE</span> Trial Today</h3>
                             </div>
-                            <div class="block__main">
+                            <div class="form__main">
                                 <div class="block__input-container">
-                                    <input type="text" id="input-name" required>
-                                    <label class="input-container__label" for="input-name">Name</label>
+                                    <input type="text" id="form-name" required>
+                                    <label class="input-container__label" for="form-name">Name</label>
                                 </div>
                                 <div class="block__input-container">
-                                    <input type="email" id="input-email" required>
-                                    <label class="input-container__label" for="input-email">Email</label>
+                                    <input type="email" id="form-email" required>
+                                    <label class="input-container__label" for="form-email">Email</label>
                                 </div>
                                 <div class="block__input-container">
-                                    <input type="password" id="input-password" required>
-                                    <label class="input-container__label" for="input-password">Password</label>
+                                    <input type="password" id="form-password" required>
+                                    <label class="input-container__label" for="form-password">Password</label>
                                 </div>
                             </div>
-                            <div class="block__footer">
-                               <button class="button__action">Get Started</button>
+                            <div class="form__footer">
+                               <button class="form__button">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -79,48 +77,40 @@
         </section>
         <section id="media">
             <div class="wrap">
-                <div class="media__block">
+                <div class="media__container">
                     <div class="media__box">
                         <h4 class="media__title">Social Media</h4>
                         <p class="media__tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aenean euismod bibendum laoreet.</p>
                     </div>
-                    <div class="media__box media__box--links">
-                        <ul class="media__list">
-                            <li class="media__item"><a class="media__link media__link--facebook" href="https://www.facebook.com/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--twitter" href="https://twitter.com/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--linkedin" href="https://www.linkedin.com/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--pinterest" href="https://www.pinterest.com/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--instagram" href="https://www.instagram.com/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--telegram" href="https://web.telegram.org/k/"></a></li>
-                            <li class="media__item"><a class="media__link media__link--youtube" href="https://www.youtube.com/"></a></li>
-                        </ul>
-                    </div>
+                    <div class="media__box media__box--links"></div>
                 </div>
             </div>
         </section>
         <section id="tabs">
             <div class="wrap">
-                <div class="container">
-                    <div class="container__card container__card--left">
-                        <div class="container__tab container__tab--top">
-                            <p class="container__title">Tab 1</p>
+                <div class="tabs__container">
+                    <div class="tabs__card tabs__card--left">
+                        <div class="cube cube--red">
+                            <p class="cube__title">Tab 1</p>
                         </div>
-                        <div class="container__tab container__tab--mid">
-                            <p class="container__title">Tab 2</p>
+                        <div class="cube">
+                            <p class="cube__title">Tab 1</p>
                         </div>
-                        <div class="container__tab container__tab--bottom">
-                            <p class="container__title">Tab 3</p>
+                        <div class="cube">
+                            <p class="cube__title">Tab 1</p>
                         </div>
                     </div>
-                    <div class="container__card container__card--mid">
-                        <h3 class="container__subtitle">Tabs with soft transitioning effect.</h3>
+                    <div class="tabs__card tabs__card--mid">
                         <div class="container__block-box">
-                            <p class="container__text-description container__text-description--first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-                            <p class="container__text-description container__text-description--sec"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                            <h3 class="container__subtitle">Tabs with soft transitioning effect.</h3>
+                            <p class="container__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                         </div>
-                        <button class="button__action button__action--tab">Download</button>
+                        <div class="container__block-box">
+                            <p class="container__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                            <button class="button button--red">Download</button>
+                        </div>
                     </div>
-                    <div class="container__card container__card--right">
+                    <div class="tabs__card tabs__card--right">
                         <div class="container__pic"></div>
                     </div>
                 </div>
@@ -128,28 +118,29 @@
         </section>
         <section id="advantages">
             <div class="wrap">
-                <h2 class="title">WHY THIS IS AWESOME
-                    <hr class="title__line">
-                </h2>
-                <div class="undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="devider-container">
+                    <h2 class="devider__title">WHY THIS IS AWESOME</h2>
+                    <hr class="devider devider--red">
+                    <h3 class="devider__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
                 </div>
-                <div class="container">
-                    <div class="container__left">
-                        <div class="icon icon__bulb">
+                <div class="advantages__container">
+                    <div class="advantages__card">
+                        <div class="icon__container icon__container--bulb">
                         </div>
-                        <h3 class="advantage">Thoughtful Design</h3>
+                        <h3 class="advantage__title">Thoughtful Design</h3>
                             <p class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
-                    <div class="containter__middle">
-                        <div class="icon icon__keyboard">
+                    <div class="advantages__card">
+                        <div class="icon__container icon__container--keyboard">
                         </div>
-                        <h3 class="advantage">Well Crafted</h3>
+                        <h3 class="advantage__title">Well Crafted</h3>
                         <p class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
-                    <div class="container__right">
-                        <div class="icon icon__lightning">
+                    <div class="advantages__card">
+                        <div class="icon__container icon__container--lightning">
                         </div>
-                        <h3 class="advantage">Easy to Customize</h3>
+                        <h3 class="advantage__title">Easy to Customize</h3>
                         <p class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                 </div>
@@ -157,11 +148,13 @@
         </section>
         <section id="prices">
             <div class="wrap">
-                <h2 class="title">pricing options</h2>
-                <hr class="title__line">
-                <div class="undertitle undertitle--margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="devider-container">
+                    <h2 class="devider__title">PRICING OPTIONS</h2>
+                    <hr class="devider devider--red">
+                    <h3 class="devider__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
                 </div>
-                <div class="container">
+                <div class="prices__container">
                     <ul class="container__pricelist container__pricelist--left">
                         <li class="container__item--basic">Basic</li>
                         <li class="container__item--cost">$0</li>
@@ -200,54 +193,52 @@
         </section>
         <section id="comments">
             <div class="wrap">
-                <h2 class="title">what our customers are saying
-                    <hr class="title__line">
-                </h2>
-                <div class="undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="devider-container">
+                    <h2 class="devider__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+                    <hr class="devider devider--red">
+                    <h3 class="devider__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
                 </div>
-                <div class="container">
-                    <div class="container__box">
-                        <p class="container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                <div class="comments__container">
+                    <div class="comments__card">
+                        <span class="comments__text">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</span>
                     </div>
-                    <div class="container__box">
-                        <p class="container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                    <div class="comments__card">
+                        <span class="comments__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque quo suscipit.</span>
                     </div>
-                    <div class="container__box">
-                        <p class="container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                    <div class="comments__card">
+                        <span class="comments__text">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</span>
                     </div>
                 </div> 
-                <div class="container">
-                    <div class="container__box container__box--under">
+                <div class="person-container">
+                    <div class="person-container__box ">
                         <div class="avatar"></div>
                         <div class="person">
-                            <div class="person__avatar">
-                                <p class="person__name">Jeremy H.</p>
-                            </div>
-                            <div class="person__box">
-                                <p class="person__position">Manager</p>
-                            </div>
+                            <span class="person__name">Jeremy H.</span>
+                            <span class="person__position">Manager</span>
                         </div>
                     </div>
-                    <div class="container__box container__box--under">
+                    <div class="person-container__box ">
                         <div class="avatar"></div>
                         <div class="person">
-                            <div class="person__avatar">
-                                <p class="person__name">Jeremy H.</p>
-                            </div>
-                            <div class="person__box">
-                                <p class="person__position">Manager</p>
-                            </div>
+                            <span class="person__name">Jeremy H.</span>
+                            <span class="person__position">Manager</span>
                         </div>
                     </div>
-                    <div class="container__box container__box--under">
+                    <div class="person-container__box ">
                         <div class="avatar"></div>
                         <div class="person">
-                            <div class="person__avatar">
-                                <p class="person__name">Jeremy H.</p>
-                            </div>
-                            <div class="person__box">
-                                <p class="person__position">Manager</p>
-                            </div>
+                            <span class="person__name">Jeremy H.</span>
+                            <span class="person__position">Manager</span>
                         </div>
                     </div>
                 </div>
@@ -255,26 +246,29 @@
         </section>
         <section class="design">
             <div class="wrap">
-                <h2 class="title title--white">STYLISH AXURE DESIGN</h2>
-                <hr class="whiteline">
-                <div class="inner">
-                    <span class="text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
-                    </span>
-                </div>
-                <div class="link">
-                    <a href="https://www.google.com/?hl=ru" class="button">Download</a>
+                <div class="design__container">
+                    <div class="devider-container devider-container--padding">
+                        <h2 class="devider__title devider__title--white">STYLISH AXURE DESIGN</h2>
+                        <hr class="devider devider--white">
+                        <h3 class="design__slogan">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+                        </h3>
+                    </div>
+                    <div class="design__button-container">
+                        <button class="button">Download</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="contacts">
             <div class="wrap">
-                <h2 class="title">Contact us
-                    <hr class="title__line">
-                </h2>
-                <div class="undertitle undertitle--smallspace">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="devider-container">
+                    <h2 class="devider__title">CONTACT US</h2>
+                    <hr class="devider devider--red">
+                    <h3 class="devider__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
                 </div>
-                <div class="container">
-                    <div class="container container--left">
+                <div class="contacts__container">
+                    <div class="contacts__container--left">
                         <div class="input-container">
                             <input type="text" id="input-name" required>
                             <label class="input-container__label" for="input-name">Name</label>
@@ -288,40 +282,43 @@
                             <label class="input-container__label" for="input-password">Password</label>
                         </div>
                     </div>
-                    <div class="container container--right">
-                        <textarea name="comment" placeholder="Message"></textarea>
+                    <div class="contacts__container--right">
+                        <textarea class="textarea" name="comment" placeholder="Message"></textarea>
                     </div>
                 </div>
-                <div class="link">
-                    <a href="https://www.google.com/?hl=ru" class="button button--red">Send Message</a>
+                <div class="contacts__button-container">
+                    <button class="button button--red button--width">Send Message
+                    </button>
                 </div>
         </section>
     </main>
     <footer id="footer">
         <div class="wrap">
-            <ul class="socialwebs">
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--facebook" href="https://www.facebook.com/"></a>
-                </li>
-                <li class="socialwebs__item">                    
-                    <a class="socialwebs__link socialwebs__link--twitter" href="https://www.twitter.com/"></a>
-                </li>
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--linkedin" href="https://www.linkedin.com/"></a>
-                </li>
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--pinterest" href="https://www.pinterest.com/"></a>
-                </li>
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--instagram" href="https://www.instagram.com/"></a>
-                </li>
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--telegram" href="https://www.telegram.org/"></a>
-                </li>
-                <li class="socialwebs__item">
-                    <a class="socialwebs__link socialwebs__link--youtube" href="https://www.youtube.com/"></a>
-                </li>
-            </ul>
+            <div class="footer__container">
+                <ul class="socialwebs__list">
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--facebook" href="https://www.facebook.com/"></a>
+                    </li>
+                    <li class="socialwebs__item">                    
+                        <a class="socialwebs__link socialwebs__link--twitter" href="https://www.twitter.com/"></a>
+                    </li>
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--linkedin" href="https://www.linkedin.com/"></a>
+                    </li>
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--pinterest" href="https://www.pinterest.com/"></a>
+                    </li>
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--instagram" href="https://www.instagram.com/"></a>
+                    </li>
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--telegram" href="https://www.telegram.org/"></a>
+                    </li>
+                    <li class="socialwebs__item">
+                        <a class="socialwebs__link socialwebs__link--youtube" href="https://www.youtube.com/"></a>
+                    </li>
+                </ul>
+            </div>
             <div class="copyright">
                 <p class="copyright__text">© 2015 Axure Themes</p>
             </div>

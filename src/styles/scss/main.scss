@@ -1,26 +1,25 @@
-* {
-    box-sizing: border-box;
-    margin: 0 auto;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 .wrap {
-    width: 1400px; 
+    max-width: 1180px;
+    height: 100%;
+    margin: 0 auto; 
 }
 
+@import './reset';
 @import './header';
-@import './sub-header';
-@import './media';
-@import './tabs';
+@import './sectionSubHeader';
+@import './sectionMedia';
+@import './sectionTabs';
 @import './sectionAdvantages';
 @import './sectionPrises';
 @import './sectionComments';
 @import './sectionDesign';
-@import './contacts';
+@import './sectionContacts';
 @import './footer';
+// @import './adaptive';
 
 
 

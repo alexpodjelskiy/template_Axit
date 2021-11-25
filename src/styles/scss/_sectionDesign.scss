@@ -2,43 +2,37 @@
     height: 326px;
     background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(../../images/section_background.svg) no-repeat center;
     background-size: cover;
-    text-align: center; 
 }
 
-.title--white {
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    color: #FFFFFF;
+.design__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.devider-container--padding {
     padding-top: 58px;
 }
 
-.whiteline {
-    margin: 34px auto;
-    border: 1px solid #FFFFFF;
-    width: 64px;
-    height: 2px 
+.devider__title--white {
+    color: #FFFFFF;
 }
 
-.inner {
-    margin-bottom: 68px;    
+.devider--white {
+    margin: 34px 0;
+    border-top: 1px solid #FFFFFF;
 }
 
-.text {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+.design__slogan {
+    font-family: Raleway;
     font-weight: 300;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8); 
 }
 
-.button {
-    padding: 11px 26px;
-    border: 1px solid #FFFFFF;
-    font-family: 'Open Sans', 'sans-serif';
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    background: none;
-    text-decoration: none;
+.design__button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 38px;
 }

@@ -1,0 +1,88 @@
+#tabs {
+    height: 600px;
+}
+
+.tabs__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs__card--left {
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cube {
+    width: 112px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    border-radius: 4px;
+}
+
+.cube--red {
+    background: #EC7979;
+}
+
+.cube__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.tabs__card--mid {
+    max-width: 572px;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__block-box {
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container__description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.button--red {
+    background: #EC7979;
+}
+
+.tabs__card--right {
+    padding-top: 100px;
+}
+
+.container__pic {
+    width: 320px;
+    height: 253px;
+    background: url(../../images/city.png) no-repeat center;
+}
